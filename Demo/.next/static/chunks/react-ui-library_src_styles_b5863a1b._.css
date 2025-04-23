@@ -1,0 +1,130 @@
+/* [project]/react-ui-library/src/styles/Button.css [app-client] (css) */
+.sg-button {
+  border-radius: .375rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  transition: background-color .15s;
+  display: inline-flex;
+}
+
+.sg-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #3b82f6;
+}
+
+.sg-button:disabled {
+  opacity: .5;
+  pointer-events: none;
+}
+
+.sg-button-primary {
+  color: #fff;
+  background-color: #2563eb;
+}
+
+.sg-button-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.sg-button-secondary {
+  color: #fff;
+  background-color: #4b5563;
+}
+
+.sg-button-secondary:hover {
+  background-color: #374151;
+}
+
+.sg-button-outline {
+  color: #374151;
+  background-color: #0000;
+  border: 1px solid #d1d5db;
+}
+
+.sg-button-outline:hover {
+  background-color: #f9fafb;
+}
+
+.sg-button-ghost {
+  color: #374151;
+  background-color: #0000;
+}
+
+.sg-button-ghost:hover {
+  background-color: #f3f4f6;
+}
+
+.sg-button-danger {
+  color: #fff;
+  background-color: #dc2626;
+}
+
+.sg-button-danger:hover {
+  background-color: #b91c1c;
+}
+
+.sg-button-sm {
+  padding: .375rem .75rem;
+  font-size: .875rem;
+}
+
+.sg-button-md {
+  padding: .5rem 1rem;
+  font-size: 1rem;
+}
+
+.sg-button-lg {
+  padding: .75rem 1.5rem;
+  font-size: 1.125rem;
+}
+
+.sg-button-full {
+  width: 100%;
+}
+
+.sg-button-spinner {
+  width: 1rem;
+  height: 1rem;
+  margin-left: -.25rem;
+  margin-right: .5rem;
+  animation: 1s linear infinite spin;
+}
+
+.sg-button-spinner-circle {
+  opacity: .25;
+}
+
+.sg-button-spinner-path {
+  opacity: .75;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* [project]/react-ui-library/src/styles/globals.css [app-client] (css) */
+:root {
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-secondary-500: #6b7280;
+  --color-secondary-600: #4b5563;
+  --color-secondary-700: #374151;
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-300: #d1d5db;
+  --color-gray-700: #374151;
+  --color-red-600: #dc2626;
+  --color-red-700: #b91c1c;
+}
+
+
+/*# sourceMappingURL=react-ui-library_src_styles_b5863a1b._.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/react-ui-library/src/styles/globals.css"],"sourcesContent":[":root {\r\n    --color-primary-500: #3b82f6;\r\n    --color-primary-600: #2563eb;\r\n    --color-primary-700: #1d4ed8;\r\n    \r\n    --color-secondary-500: #6b7280;\r\n    --color-secondary-600: #4b5563;\r\n    --color-secondary-700: #374151;\r\n    \r\n    --color-gray-50: #f9fafb;\r\n    --color-gray-100: #f3f4f6;\r\n    --color-gray-300: #d1d5db;\r\n    --color-gray-700: #374151;\r\n    \r\n    --color-red-600: #dc2626;\r\n    --color-red-700: #b91c1c;\r\n  }\r\n  "],"names":[],"mappings":"AAAA"}}]
+}

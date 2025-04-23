@@ -1,0 +1,106 @@
+.sg-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    transition: background-color 150ms;
+  }
+  
+  .sg-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #3b82f6;
+  }
+  
+  .sg-button:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
+  /* Variants */
+  .sg-button-primary {
+    background-color: #2563eb;
+    color: white;
+  }
+  .sg-button-primary:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .sg-button-secondary {
+    background-color: #4b5563;
+    color: white;
+  }
+  .sg-button-secondary:hover {
+    background-color: #374151;
+  }
+  
+  .sg-button-outline {
+    background-color: transparent;
+    border: 1px solid #d1d5db;
+    color: #374151;
+  }
+  .sg-button-outline:hover {
+    background-color: #f9fafb;
+  }
+  
+  .sg-button-ghost {
+    background-color: transparent;
+    color: #374151;
+  }
+  .sg-button-ghost:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .sg-button-danger {
+    background-color: #dc2626;
+    color: white;
+  }
+  .sg-button-danger:hover {
+    background-color: #b91c1c;
+  }
+  
+  /* Sizes */
+  .sg-button-sm {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+  }
+  
+  .sg-button-md {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  
+  .sg-button-lg {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+  }
+  
+  .sg-button-full {
+    width: 100%;
+  }
+  
+  /* Loading spinner */
+  .sg-button-spinner {
+    animation: spin 1s linear infinite;
+    margin-right: 0.5rem;
+    margin-left: -0.25rem;
+    height: 1rem;
+    width: 1rem;
+  }
+  
+  .sg-button-spinner-circle {
+    opacity: 0.25;
+  }
+  
+  .sg-button-spinner-path {
+    opacity: 0.75;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

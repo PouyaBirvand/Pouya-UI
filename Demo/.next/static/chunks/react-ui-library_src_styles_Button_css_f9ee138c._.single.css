@@ -1,0 +1,112 @@
+/* [project]/react-ui-library/src/styles/Button.css [app-client] (css) */
+.sg-button {
+  border-radius: .375rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  transition: background-color .15s;
+  display: inline-flex;
+}
+
+.sg-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #3b82f6;
+}
+
+.sg-button:disabled {
+  opacity: .5;
+  pointer-events: none;
+}
+
+.sg-button-primary {
+  color: #fff;
+  background-color: #2563eb;
+}
+
+.sg-button-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.sg-button-secondary {
+  color: #fff;
+  background-color: #4b5563;
+}
+
+.sg-button-secondary:hover {
+  background-color: #374151;
+}
+
+.sg-button-outline {
+  color: #374151;
+  background-color: #0000;
+  border: 1px solid #d1d5db;
+}
+
+.sg-button-outline:hover {
+  background-color: #f9fafb;
+}
+
+.sg-button-ghost {
+  color: #374151;
+  background-color: #0000;
+}
+
+.sg-button-ghost:hover {
+  background-color: #f3f4f6;
+}
+
+.sg-button-danger {
+  color: #fff;
+  background-color: #dc2626;
+}
+
+.sg-button-danger:hover {
+  background-color: #b91c1c;
+}
+
+.sg-button-sm {
+  padding: .375rem .75rem;
+  font-size: .875rem;
+}
+
+.sg-button-md {
+  padding: .5rem 1rem;
+  font-size: 1rem;
+}
+
+.sg-button-lg {
+  padding: .75rem 1.5rem;
+  font-size: 1.125rem;
+}
+
+.sg-button-full {
+  width: 100%;
+}
+
+.sg-button-spinner {
+  width: 1rem;
+  height: 1rem;
+  margin-left: -.25rem;
+  margin-right: .5rem;
+  animation: 1s linear infinite spin;
+}
+
+.sg-button-spinner-circle {
+  opacity: .25;
+}
+
+.sg-button-spinner-path {
+  opacity: .75;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=react-ui-library_src_styles_Button_css_f9ee138c._.single.css.map*/

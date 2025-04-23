@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react';
-import { Button } from "../../react-ui-library/src";
+import { Button } from "../../Library/src";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('variants');

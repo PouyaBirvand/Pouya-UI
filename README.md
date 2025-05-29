@@ -1,4 +1,9 @@
 # Pouya UI Component Library with Next.js Demo
+## ⚠️ Development Status
+> **Note:** This project is currently under active development. Features may change and improve over time.
+>
+ <br/>
+
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
